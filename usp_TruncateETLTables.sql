@@ -1,4 +1,5 @@
--- usp_TruncateETLTables is used to truncate multiple tables—like your raw_, dim_, and fact_ tables—in a clean and reusable way.
+-- usp_TruncateETLTables is used to truncate multiple tables—like your raw_, dim_, and fact_ tables—in a 
+--clean and reusable way.
 
 CREATE PROCEDURE usp_TruncateETLTables
 AS
