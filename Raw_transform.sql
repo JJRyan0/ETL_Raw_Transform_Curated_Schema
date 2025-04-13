@@ -99,11 +99,10 @@ FROM raw_customers;
 --TRY_CAST(): Converts the signup_date to a DATE format.
 
 -- STEP 4: Final Reporting View — Join Everything
-Now, we join the cleaned stage_order_lines and cleaned_customers data to create a final report that combines order details with customer data.
+--Now, we join the cleaned stage_order_lines and cleaned_customers data to create a final 
+--report that combines order details with customer data.
 
-sql
-Copy
-Edit
+
 -- Create a final view that aggregates the data for reporting
 CREATE VIEW order_summary AS
 SELECT 
